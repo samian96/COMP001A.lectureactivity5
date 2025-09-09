@@ -4,3 +4,4 @@ Learning different methods for using stylesheets with css.
 Internal being on the html file
 external being linked to an external stylesheet
 Inline being written into the line inside elements
+File not fully complete, I know I missed some steps
