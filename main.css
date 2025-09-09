@@ -57,3 +57,48 @@ div ul {
     margin: 20px; /*adding some space outside the card*/
     background-color: #f9f9f9; /*light gray*/
 }
+
+/*styling h3 within a class*/
+.feature-card h3 {
+    font-size: 20px; /*20px is the default font size*/
+    margin-bottom: 10px; /*adding some space below the heading*/
+    color: #2c3e50; /*deep blue text color*/
+}
+/*styling p with a class*/
+.feature-card p {
+    margin-bottom: 10px; /*adding some space below the paragraph*/
+    color: #7f8c8d; /*grayish-blue text color*/
+}
+/*specific styling using an ID*/
+#special-feature {
+    background-color: #fde3a7; /*light gold background color*/
+    border-color: #f39c12; /*gold border color*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*adding a shadow*/
+}
+
+/*Styling the link in its normal state*/
+a {
+    display: inline-block; /*making the link a clock element*/
+    color: #3498db; /*bright blue text color*/
+    text-decoration: none; /*removing the underline*/
+    padding: 5px 10px; /*adding some space inside the link*/
+    border: 1px solid #3498db; /*bright blue border color*/
+    transition: all 0.3 ease; /*adding a transition*/
+}
+/*conditional styling for hover state*/
+a:hover {
+    background-color: #3498db; /*Bright blue background color*/
+    color: white; /*white text color*/
+}
+/*Styling the button*/
+button {
+    padding: 5px 10px; /*adding some space inside the button*/
+    border: none; /*removing the border*/
+    background-color: #ecf0f1; /*light gray background color*/
+    cursor: pointer; /*changing the cursor to a pointer*/
+    transition: all 0.3 ease; /*adding a transition*/
+}
+/*condition styling for the hover state*/
+button:hover {
+    background-color: red; /*red background color*/
+}
